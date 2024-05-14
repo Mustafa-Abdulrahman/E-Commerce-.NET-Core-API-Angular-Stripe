@@ -1,0 +1,106 @@
+<div class="container">
+  <div class="row">
+    <!-- filter -->
+    <section class="col-3" *ngIf="ProductsNoData">
+      <h6 class="text-danger my-3" style="font-weight: bold">Sorting</h6>
+      <select
+        class="form-select mb-5"
+        aria-label="Default select example"
+        #sortPrice
+        (change)="SortBy(sortPrice.value)"
+      >
+        <option selected value="0">Name</option>
+        <option value="1">Price: Max-Min</option>
+        <option value="2">Price: Min-Max</option>
+      </select>
+      <h6 class="text-danger" style="font-weight: bold">Category</h6>
+      <ul class="list-group">
+        <li
+          class="list-group-item"
+          *ngFor="let item of Category"
+          (click)="onCategorySelect(item.id)"
+          [ngClass]="{ active: item.id === categoryId }"
+        >
+          {{ item.name }}
+        </li>
+      </ul>
+    </section>
+    <!-- Body -->
+    <section class="col-9" *ngIf="ProductsNoData">
+      <div class="d-flex justify-content-between align-items-center pb-4 pt-4">
+        <div class="col-3">
+          <span>Showing <strong>5</strong> of <strong>15</strong>Results </span>
+        </div>
+        <div class="col-9">
+          <div class="input-group">
+            <input
+              class="form-control mr-2"
+              type="text"
+              placeholder="Search Here"
+              #inputField
+            />
+            <button
+              class="btn btn-outline-success"
+              (click)="searchFunc(inputField.value)"
+            >
+              Search
+            </button>
+            <button
+              class="btn btn-outline-warning"
+              (click)="resetAllFilter(); inputField.value = ''"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- items -->
+        <div class="col-md-4" *ngFor="let item of ProductsNoData">
+          <div class="card mb-4 box-shadow">
+            <img
+              class="card-img-top"
+              alt="{{ item.name }}"
+              style="height: 225px; width: 100%; display: block"
+              src="{{ item.image }}"
+            />
+            <div class="card-body">
+              <h6
+                routerLink="/shop/{{ item.id }}"
+                routerLinkActive="router-link-active"
+              >
+                {{ item.name }}
+              </h6>
+              <p class="card-text" style="height: 70px; overflow: auto">
+                {{ item.description }}
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                    routerLink="/shop/{{ item.id }}"
+                    routerLinkActive="router-link-active"
+                  >
+                    View
+                  </button>
+                  <button
+                    (click)="addItemToBasket(item)"
+                    type="button"
+                    class="btn btn-outline-danger fa fa-shpping-cart"
+                  >
+                    Add
+                  </button>
+                </div>
+                <small class="text-muted fw-bold price">{{
+                  item.price | currency
+                }}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pages"></div>
+    </section>
+  </div>
+</div>

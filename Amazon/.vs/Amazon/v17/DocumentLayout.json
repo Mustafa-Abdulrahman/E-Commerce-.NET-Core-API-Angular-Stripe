@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48E4A197-7EBE-4B7A-95BA-EAEB794B66CF}|Amazon.Infrasructure\\Amazon.Infrasructure.csproj|d:\\iti 2023\\0- projects\\asp\u0026angular\\amazon\\amazon.infrasructure\\repository\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E4A197-7EBE-4B7A-95BA-EAEB794B66CF}|Amazon.Infrasructure\\Amazon.Infrasructure.csproj|solutionrelative:amazon.infrasructure\\repository\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E90FD5-28D8-4B97-A72A-DD83886DF3BF}|Amazon.Core\\Amazon.Core.csproj|d:\\iti 2023\\0- projects\\asp\u0026angular\\amazon\\amazon.core\\entities\\oders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E90FD5-28D8-4B97-A72A-DD83886DF3BF}|Amazon.Core\\Amazon.Core.csproj|solutionrelative:amazon.core\\entities\\oders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E90FD5-28D8-4B97-A72A-DD83886DF3BF}|Amazon.Core\\Amazon.Core.csproj|d:\\iti 2023\\0- projects\\asp\u0026angular\\amazon\\amazon.core\\dto\\customerbasketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E90FD5-28D8-4B97-A72A-DD83886DF3BF}|Amazon.Core\\Amazon.Core.csproj|solutionrelative:amazon.core\\dto\\customerbasketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E90FD5-28D8-4B97-A72A-DD83886DF3BF}|Amazon.Core\\Amazon.Core.csproj|D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\amazon.core\\entities\\customerbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7E90FD5-28D8-4B97-A72A-DD83886DF3BF}|Amazon.Core\\Amazon.Core.csproj|solutionrelative:amazon.core\\entities\\customerbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C747D18-C387-410F-81E6-A22634496045}|Amazon.API\\Amazon.API.csproj|D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\amazon.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C747D18-C387-410F-81E6-A22634496045}|Amazon.API\\Amazon.API.csproj|solutionrelative:amazon.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Core\\Entities\\oders\\Order.cs",
+              "RelativeDocumentMoniker": "Amazon.Core\\Entities\\oders\\Order.cs",
+              "ToolTip": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Core\\Entities\\oders\\Order.cs",
+              "RelativeToolTip": "Amazon.Core\\Entities\\oders\\Order.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:45:36.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Infrasructure\\Repository\\OrderServices.cs",
+              "RelativeDocumentMoniker": "Amazon.Infrasructure\\Repository\\OrderServices.cs",
+              "ToolTip": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Infrasructure\\Repository\\OrderServices.cs",
+              "RelativeToolTip": "Amazon.Infrasructure\\Repository\\OrderServices.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T20:46:17.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerBasketDto.cs",
+              "DocumentMoniker": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Core\\Dto\\CustomerBasketDto.cs",
+              "RelativeDocumentMoniker": "Amazon.Core\\Dto\\CustomerBasketDto.cs",
+              "ToolTip": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Core\\Dto\\CustomerBasketDto.cs",
+              "RelativeToolTip": "Amazon.Core\\Dto\\CustomerBasketDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:07:16.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerBasket.cs",
+              "DocumentMoniker": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Core\\Entities\\CustomerBasket.cs",
+              "RelativeDocumentMoniker": "Amazon.Core\\Entities\\CustomerBasket.cs",
+              "ToolTip": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.Core\\Entities\\CustomerBasket.cs",
+              "RelativeToolTip": "Amazon.Core\\Entities\\CustomerBasket.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:06:50.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Amazon.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\ITI 2023\\0- Projects\\ASP\u0026Angular\\Amazon\\Amazon.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Amazon.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAzwCsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:59:56.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

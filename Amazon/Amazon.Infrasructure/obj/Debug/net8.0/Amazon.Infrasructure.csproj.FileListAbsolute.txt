@@ -1,0 +1,17 @@
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\bin\Debug\net8.0\Amazon.Infrasructure.deps.json
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\bin\Debug\net8.0\Amazon.Infrasructure.runtimeconfig.json
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\bin\Debug\net8.0\Amazon.Infrasructure.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\bin\Debug\net8.0\Amazon.Infrasructure.pdb
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\bin\Debug\net8.0\Amazon.Core.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\bin\Debug\net8.0\Amazon.Core.pdb
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.csproj.AssemblyReference.cache
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.AssemblyInfoInputs.cache
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.AssemblyInfo.cs
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.csproj.CoreCompileInputs.cache
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.I.67531B57.Up2Date
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\refint\Amazon.Infrasructure.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.pdb
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\Amazon.Infrasructure.genruntimeconfig.cache
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Infrasructure\obj\Debug\net8.0\ref\Amazon.Infrasructure.dll

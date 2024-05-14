@@ -1,0 +1,42 @@
+<div class="container px-4 px-lg-5 my-5">
+  <div class="row gx-4 gx-lg-5 align-items-center">
+    <div class="col-md-6">
+      <img
+        class="card-img-top mb-5 mb-md-0"
+        src="{{ singleProduct.image }}"
+        alt="..."
+      />
+    </div>
+    <div class="col-md-6">
+      <div class="small mb-1">SKU: BST-498</div>
+      <h1 class="display-5 fw-bolder">{{ singleProduct.name }}</h1>
+      <div class="fs-5 mb-5">
+        <span>{{ singleProduct.price | currency }}</span>
+      </div>
+      <p class="lead">
+        {{ singleProduct.description }}
+      </p>
+      <div class="d-flex">
+        <i
+          (click)="decrementQuantity()"
+          class="fa fa-minus-square text-danger mx-2"
+          style="font-weight: bold; cursor: pointer; font-size: 1em"
+        ></i>
+        <span style="font-weight: bold">{{ quantity }}</span>
+        <i
+          (click)="incrementQuantity()"
+          class="fa fa-plus-square text-danger mx-2"
+          style="font-weight: bold; cursor: pointer; font-size: 2em"
+        ></i>
+        <button
+          (click)="addItemToBasket()"
+          class="btn btn-outline-dark flex-shrink-0"
+          type="button"
+        >
+          <i class="bi-cart-fill me-1"></i>
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

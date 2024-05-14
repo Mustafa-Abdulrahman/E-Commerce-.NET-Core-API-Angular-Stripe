@@ -1,0 +1,28 @@
+<div *ngIf="(basket$ | async) === null">
+  <h3 class="text-center text-danger">There is no Items added yet!</h3>
+</div>
+
+<div class="mt-5" *ngIf="basket$ | async">
+  <div class="container">
+    <div class="row">
+      <app-basket-summery
+        (decrement)="decrementBasketItemQuantity($event)"
+        (increment)="incrementBasketItemQuantity($event)"
+        (remove)="removeBasketItem($event)"
+      >
+      </app-basket-summery>
+    </div>
+
+    <div class="row">
+      <div class="col-6 offset-6">
+        <app-order-totals></app-order-totals>
+        <a
+          routerLink="/checkout"
+          class="btn btn-outline-success d-md-block mb-5"
+        >
+          Proceed to checkout
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

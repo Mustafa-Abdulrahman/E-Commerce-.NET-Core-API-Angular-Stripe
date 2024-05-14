@@ -1,0 +1,12 @@
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\bin\Debug\net8.0\Amazon.Core.deps.json
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\bin\Debug\net8.0\Amazon.Core.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\bin\Debug\net8.0\Amazon.Core.pdb
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.AssemblyInfoInputs.cache
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.AssemblyInfo.cs
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.csproj.CoreCompileInputs.cache
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\refint\Amazon.Core.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.pdb
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\ref\Amazon.Core.dll
+D:\ITI 2023\0- Projects\ASP&Angular\Amazon\Amazon.Core\obj\Debug\net8.0\Amazon.Core.csproj.AssemblyReference.cache

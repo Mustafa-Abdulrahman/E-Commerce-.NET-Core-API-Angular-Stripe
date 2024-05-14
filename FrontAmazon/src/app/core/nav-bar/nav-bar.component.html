@@ -1,0 +1,85 @@
+<header
+  class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+>
+  <a
+    href="/"
+    class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
+    routerLink="/"
+  >
+    <img
+      src="/assets/Images/38ef5c67449aada308692188a7d9b253.png"
+      alt=""
+      style="max-height: 50px"
+    />
+  </a>
+
+  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+    <li>
+      <a
+        class="nav-link px-2"
+        href="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        href="#"
+        class="nav-link px-2"
+        [routerLink]="['/shop']"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Shop</a
+      >
+    </li>
+    <!-- <li><a class="nav-link px-2">Contact</a></li>
+    <li>
+      <a class="nav-link px-2">FAQs</a>
+    </li>
+    <li><a class="nav-link px-2">About</a></li> -->
+  </ul>
+
+  <div class="d-flex flex-wrap align-items-center">
+    <a routerLink="/basket" class="position-relative">
+      <i
+        class="fa fa-shopping-cart text-dark fa-2x"
+        style="margin-right: 30px"
+      ></i>
+      <div class="card-number" *ngIf="basket$ | async as basket">
+        {{ basket.basketItems.length }}
+      </div>
+    </a>
+    <div *ngIf="(currentUser$ | async) === null">
+      <a routerLink="/account/login" class="btn btn-outline-danger me-2"
+        >Login</a
+      >
+      <a routerLink="/account/register" class="btn btn-danger">Sign-up</a>
+    </div>
+    <div *ngIf="currentUser$ | async">
+      <div class="btn-group ml-3 mr-5" dropdown>
+        <a
+          dropdownToggle
+          class="dropdown-toggle"
+          style="text-decoration: none; cursor: pointer"
+        >
+          <span style="font-weight: bold">
+            Welcome , {{ (currentUser$ | async).displayName }}
+          </span>
+        </a>
+        <div *dropdownMenu class="dropdown-menu">
+          <a class="dropdown-item" routerLink="/basket">
+            <i class="fa fa-shopping-cart mx-1"></i>Basket</a
+          >
+          <a class="dropdown-item" routerLink="/orders">
+            <i class="fa fa-history mx-1"></i> Orders</a
+          >
+          <div class="divider dropdown-divider"></div>
+          <a (click)="logout()" class="dropdown-item" style="cursor: pointer">
+            <i class="fa fa-sign-out mx-1"></i>Logout</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
